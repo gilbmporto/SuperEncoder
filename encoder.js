@@ -1,4 +1,4 @@
-import { caesarCipher, symbolCipher, reverseCipher } from './encryptors';
+import { caesarCipher, symbolCipher, reverseCipher } from './encryptors.js';
 
 //Declare the functions to encript and decript the message:
 const encodeMessage = (str) => {
@@ -24,7 +24,7 @@ botaoCriptografar.addEventListener('click', () => {
 });
 
 botaoDescriptografar.addEventListener('click', () => {
-    let decipheredMessage = decodeMessage((mensagemACriptografar.value).toSring());
+    let decipheredMessage = decodeMessage(mensagemACriptografar.value);
     mensagemCriptografada.innerHTML = decipheredMessage;
     mensRecomendacao.innerHTML = 'Mensagem acima descriptografada! 🔓';
     mensRecomendacao.style.display = 'block';

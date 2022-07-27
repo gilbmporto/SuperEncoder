@@ -54,6 +54,7 @@ body {
     margin: 10px auto;
     margin-top: 20px;
     height: 500px;
+    overflow: collapse;
 }
 
 label {
@@ -91,7 +92,7 @@ input {
 }
 
 .flex {
-    margin-top: 230px;
+    margin-top: 185px;
     display: flex;
 }
 
