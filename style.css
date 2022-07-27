@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: url(./backgroundSuperEncoder.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+}
+
+.nav {
+    height: 20%;
+    margin-top: 20px;
+    margin: 0 auto;
+    width: 85%;
+    max-width: 700px;
+    background-color: #141c3a;
+    height: 70px;
+    display: flex;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+.link {
+    width: 30%;
+    margin: 8px 10px;
+    text-align: center;
+    margin-left: 80px;
+}
+
+.header {
+    background-color: #000;
+    border: 2px solid white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    width: 85%;
+    max-width: 700px;
+    text-align: center;
+    margin: 10px auto;
+    margin-top: 20px;
+}
+
+.crypto-form {
+    color: white;
+    background-color: #000;
+    border: 2px solid white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    width: 85%;
+    max-width: 700px;
+    text-align: center;
+    margin: 10px auto;
+    margin-top: 20px;
+    height: 500px;
+}
+
+label {
+    height: 50px;
+    width: 50%;
+    max-width: 300px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+hr {
+    width: 50px;    
+}
+
+input {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    font-size: 18px;
+    width: 50%;
+    max-width: 300px;
+    margin: 10px auto;
+}
+
+#cripto-mens, #decript-mens {
+    width: 50%;
+    max-width: 270px;
+    margin: 20px auto;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: #141c3a;
+    color: white;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+.flex {
+    margin-top: 230px;
+    display: flex;
+}
+
+#cripto-mens:hover {
+    width: 250px;
+    background-color: #0d1227;
+}
+
+#decript-mens:hover {
+    width: 250px;
+    background-color: #0d1227;
+}
+
+h1 {
+    color: #fff;
+}
+
+#mens-motiv {
+    color: #fff;
+    margin-top: 100px;
+    margin: 0 auto;
+}
+
+#contador-de-mensagens {
+    color: white;
+    text-align: center;
+    width: 40%;
+    max-width: 300px;
+    margin: 10px auto;
+}
+
+#recomendacao {
+    display: none;
+    text-align: center;
+}
